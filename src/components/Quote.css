@@ -1,0 +1,53 @@
+div.quote{
+    background-color:#50bb7f;
+    display: flex;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+    margin-top: 2rem;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white;
+    border-radius: 1rem;
+}
+
+div.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    align-items: center;
+}
+
+div.title span{
+    font-style: italic;
+    width: 100%;
+    display: block;
+    position: relative;
+    bottom: 19px;
+    text-align: left;
+}
+
+button{
+    height: 2.5rem;
+    width: 11rem;
+    border: none;
+    outline: none;
+    background-color: rgb(127 211 163);
+    border-radius: 7px;
+    font-size: 15px;
+    font-family: cursive;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+button:hover{
+    background-color:rgba(62, 146, 99, 0.726) ;
+}
+
+button:active{
+    background-color: rgb(127 211 163);
+}

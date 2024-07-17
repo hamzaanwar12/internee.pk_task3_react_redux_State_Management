@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+form{
+    width: 50%;
+    margin: auto;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+form h2{
+    font-size: 15px;
+}
+
+input{
+    height: 1.5rem;
+}
+input,textarea{
+    font-size: 17px;
+    padding: 1rem;
+    border-radius: 7px;
+}
+
+textarea{
+    height: 8rem;
+}
+
+button.add{
+    background-color: seagreen;
+}
+
+div.button{
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+/* npm install @reduxjs/toolkit */
+button.add:hover{
+    background-color: rgb(127 211 163);
+}
+
+button.add:active{
+    background-color: seagreen;
+}

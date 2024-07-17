@@ -1,0 +1,33 @@
+div.writeComment{
+    width: 65%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div.edit{
+    box-sizing: border-box;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 15px;
+    width: 100%;
+    border: 2px solid black;
+    /* min-height: 7rem; */
+    height: 9rem;
+    font-family: cursive;
+    overflow-y:scroll;
+}
+
+.edit{
+    box-sizing: border-box;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 15px;
+    width: 100%;
+    border: 2px solid black;
+    /* min-height: 7rem; */
+    height: 9rem;
+    font-family: cursive;
+    overflow-y:scroll;
+    margin-bottom: 2rem;
+}
